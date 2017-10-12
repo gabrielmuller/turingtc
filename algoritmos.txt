@@ -31,3 +31,22 @@ Há também casos especiais:
 - Quando não houver 'a', não deve haver nenhum 'c'.
 - Quando não houver 'b', não deve haver nenhum 'd'.
 - Aceita palavra vazia.
+
+3b)
+1. Vá para a direita até chegar depois do #.
+2. Decremente o número.
+3. Se o número era zero, transforma o # em 'E'. Aceita. Senão:
+4. Vá para a esquerda até chegar antes do #.
+5. Incremente o número.
+6. Vá para o passo 1.
+
+Decrementar:
+1. Vá para o último dígito (na direita).
+2. Se 1, substitua por 0. Aceite.
+3. Se 0, substitua por 1, vá para esquerda. Vá para 2.
+4. Se #, substitua por E. Aceite.
+
+Incrementar:
+1. Vá para o último dígito (na direita).
+2. Se 0 ou _, substitua por 1. Aceite.
+3. Se 1, substitua por 0, vá para esquerda. Vá para 2.
