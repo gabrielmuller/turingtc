@@ -1,0 +1,33 @@
+1a)
+
+1. Ache um 'a' e transforme em 'A'.
+2. Ache um 'b' e transforme em 'B'.
+3. Ache um 'c' e transforme em 'C'.
+4. Faça 2 e 3 até todos b's serem B's.
+5. Passe por todos B's e transforme-os em b's.
+6. Vá para o passo 1.
+7. Quando não houver mais nenhum 'a' e nenhum 'c', aceite.
+
+Há também casos especiais:
+
+- Quando não houver nenhum 'a' ou nenhum 'b', aceita se não houver nenhum 'c'.
+
+2b)
+
+Há 3 fitas, e o input está na primeira. As demais começam em branco.
+1. Copie todos a's da primeira para a segunda fita.
+2. Adicione um # na segunda fita.
+3. Copie todos os b's da primeira para a segunda fita.
+4. Copie todos os c's da primeira para a terceira fita.
+5. Adicione um # na terceira fita.
+6. Copie todos d's da primeira para a terceira fita.
+7. Indo para a esquerda, confira se há pares (c, d) nas fitas 2, 3.
+8. Passe por um par (#, #).
+9. Confira se há pares (a, b).
+10. Ao chegar em um par (_, _), aceite.
+
+Há também casos especiais:
+
+- Quando não houver 'a', não deve haver nenhum 'c'.
+- Quando não houver 'b', não deve haver nenhum 'd'.
+- Aceita palavra vazia.
