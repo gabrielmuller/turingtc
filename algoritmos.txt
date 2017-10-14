@@ -61,6 +61,16 @@ Há também casos especiais:
 - Quando não houver 'b', não deve haver nenhum 'd'.
 - Aceita palavra vazia.
 
+3a)
+1. Se o primeiro símbolo é vazio, rejeita.
+2. Se for 0, torna-o vazio, e se era o único 0, aceita.
+3. Se havia mais de um 0, move para a direita, marcando os 0s
+alternadamente (marca um, passa um, etc).
+4. Se o número de 0s for par, rejeita (sem contar o primeiro).
+5. Retorna ao início da entrada.
+6. Se encontrar apenas símbolos marcados, aceita.
+7. Se não, retorna ao passo 3.
+
 3b)
 1. Vá para a direita até chegar depois do #.
 2. Decremente o número.
