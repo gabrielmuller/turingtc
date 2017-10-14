@@ -12,6 +12,35 @@ Há também casos especiais:
 
 - Quando não houver nenhum 'a' ou nenhum 'b', aceita se não houver nenhum 'c'.
 
+1b)
+
+1. Marque o primeiro # com F.
+2. Ache o primeiro 0 ou 1 do primeiro x1 e compare com a primeira posição
+de todos os outros xi.
+3. Compare as posições subsequentes.
+4. Se tiverem o mesmo dígito na mesma posição, marque a/b para 0/1.
+5. Se não, marque o # daquele xi com N para não ser novamente comparado.
+6. Após passar por todos os #xi, procure por 0s e 1s. Se houver pelo menos
+um xi que não contém mais nenhum 0 ou 1, rejeita.
+7. Desmarque o F e todos os a/b.
+8. Marca o próximo # com F, repetindo o processo para os xi seguintes.
+
+2a)
+
+1. Copie o conteúdo da fita 1 para a fita 2.
+2. Volte uma posição na fita 1 para cada 3 posições na fita 2.
+3. Rejeite caso a entrada não possua tamanho múltiplo de 3.
+4. Mova o cabeçote para o final da última ocorrência na fita 1 (wR), apagando
+as outras ocorrências de w dessa fita.
+5. Movendo o cabeçote da fita 1 para a esquerda e o da fita 2 para a direita
+compare a primeira ocorrência de w (fita 2) com wR (fita 1), rejeite se forem
+diferentes.
+6. Volte o cabeçote da fita 1 para o final e faça o passo anterior para a
+segunda ocorrência de w na fita 2.
+7. Avance o cabeçote da fita 1 e da fita 2 para a direita comparando a última
+ocorrência.
+8. Ao terminar com todas as comparações iguais, aceite.
+
 2b)
 
 Há 3 fitas, e o input está na primeira. As demais começam em branco.
